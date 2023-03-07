@@ -1,4 +1,4 @@
-public class MathOperationsAndDataTypes {
+public class mathOperationsAndDataTypes {
 
     public static void main(String[] args) {
 
