@@ -2,45 +2,45 @@ public class mathOperationsAndDataTypes {
 
     public static void main(String[] args) {
 
-        int FIRSTNUMBER = 33;
-        int SECONDNUMBER = 58;
+        int firstNumber = 33;
+        int secondNumber = 58;
 
-        System.out.println("FIRSTNUMBER + SECONDNUMBER = " + (FIRSTNUMBER + SECONDNUMBER));
-        System.out.println("FIRSTNUMBER - SECONDNUMBER = " + (FIRSTNUMBER - SECONDNUMBER));
-        System.out.println("FIRSTNUMBER * SECONDNUMBER = " + (FIRSTNUMBER * SECONDNUMBER));
-        System.out.println("SECONDNUMBER / FIRSTNUMBER = " + (SECONDNUMBER / FIRSTNUMBER));
-        System.out.println("SECONDNUMBER % FIRSTNUMBER = " + (SECONDNUMBER % FIRSTNUMBER));
-        System.out.println("FIRSTNUMBER++   = " + (FIRSTNUMBER++));
-        System.out.println("FIRSTNUMBER--   = " + (FIRSTNUMBER--));
-        System.out.println("++SECONDNUMBER   = " + (++SECONDNUMBER));
-        System.out.println("SECONDNUMBER--   = " +  (FIRSTNUMBER--));
-
-
-        System.out.println("FIRSTNUMBER == SECONDNUMBER = " + (FIRSTNUMBER == SECONDNUMBER));
-        System.out.println("FIRSTNUMBER != SECONDNUMBER = " + (FIRSTNUMBER != SECONDNUMBER));
-        System.out.println("FIRSTNUMBER > SECONDNUMBER = " + (FIRSTNUMBER > SECONDNUMBER));
-        System.out.println("FIRSTNUMBER < SECONDNUMBER = " + (FIRSTNUMBER < SECONDNUMBER));
-        System.out.println("SECONDNUMBER >= FIRSTNUMBER = " + (SECONDNUMBER >= FIRSTNUMBER));
-        System.out.println("SECONDNUMBER <= FIRSTNUMBER = " + (SECONDNUMBER <= FIRSTNUMBER));
+        System.out.println("firstNumber + secondNumber = " + (firstNumber + secondNumber));
+        System.out.println("firstNumber - secondNumber = " + (firstNumber - secondNumber));
+        System.out.println("firstNumber * secondNumber = " + (firstNumber * secondNumber));
+        System.out.println("secondNumber / firstNumber = " + (secondNumber / firstNumber));
+        System.out.println("secondNumber % firstNumber = " + (secondNumber % firstNumber));
+        System.out.println("firstNumber++   = " + (firstNumber++));
+        System.out.println("firstNumber--   = " + (firstNumber--));
+        System.out.println("++secondNumber   = " + (++secondNumber));
+        System.out.println("secondNumber--   = " +  (firstNumber--));
 
 
-        byte THIRDNUMBER = 100;
-        byte FOURTHNUMBER = (byte) (THIRDNUMBER + 10);
-        System.out.println(FOURTHNUMBER);
+        System.out.println("firstNumber == secondNumber = " + (firstNumber == secondNumber));
+        System.out.println("firstNumber != secondNumber = " + (firstNumber != secondNumber));
+        System.out.println("firstNumber > secondNumber = " + (firstNumber > secondNumber));
+        System.out.println("firstNumber < secondNumber = " + (firstNumber < secondNumber));
+        System.out.println("secondNumber >= firstNumber = " + (secondNumber >= firstNumber));
+        System.out.println("secondNumber <= firstNumber = " + (secondNumber <= firstNumber));
 
 
-        int FIFTHNUMBER = Integer.MAX_VALUE;
-        int SIXTHNUMBER = FIFTHNUMBER + 5;
-        System.out.println(SIXTHNUMBER);
+        byte thirdNumber = 100;
+        byte fourthNumber = (byte) (thirdNumber + 10);
+        System.out.println(fourthNumber);
 
 
-        double DOUBLENUMBER = 5.5;
+        int fifthNumber = Integer.MAX_VALUE;
+        int sixthNumber = fifthNumber + 5;
+        System.out.println(sixthNumber);
 
-        System.out.println("int(FIRSTNUMBER) + double(DOUBLENUMBER) = " + (FIRSTNUMBER + DOUBLENUMBER));
-        System.out.println("int(FIRSTNUMBER) * double(DOUBLENUMBER) = " + (FIRSTNUMBER * DOUBLENUMBER));
-        System.out.println("int(FIRSTNUMBER) / double(DOUBLENUMBER) = " + (FIRSTNUMBER / DOUBLENUMBER));
-        System.out.println("int(FIRSTNUMBER) - double(DOUBLENUMBER) = " + (FIRSTNUMBER - DOUBLENUMBER));
-        System.out.println("int(FIRSTNUMBER) % double(DOUBLENUMBER) = " + (FIRSTNUMBER + DOUBLENUMBER));
-        System.out.println("int(FIRSTNUMBER) + double(DOUBLENUMBER) = " + (FIRSTNUMBER + DOUBLENUMBER));
+
+        double doubleNumber = 5.5;
+
+        System.out.println("int(firstNumber) + double(doubleNumber) = " + (firstNumber + doubleNumber));
+        System.out.println("int(firstNumber) * double(doubleNumber) = " + (firstNumber * doubleNumber));
+        System.out.println("int(firstNumber) / double(doubleNumber) = " + (firstNumber / doubleNumber));
+        System.out.println("int(firstNumber) - double(doubleNumber) = " + (firstNumber - doubleNumber));
+        System.out.println("int(firstNumber) % double(doubleNumber) = " + (firstNumber + doubleNumber));
+        System.out.println("int(firstNumber) + double(doubleNumber) = " + (firstNumber + doubleNumber));
     }
 }
